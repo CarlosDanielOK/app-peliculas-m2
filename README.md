@@ -1,7 +1,7 @@
 # 🎬 Carlos Enterprises
 
-**Aplicación web completa** para explorar y gestionar películas. Cuenta con un frontend moderno y un backend con base de datos MongoDB.  
-Desarrollado como parte del **Módulo 2** del curso de desarrollo web.
+**Aplicación web completa** para explorar y gestionar películas. Cuenta con frontend y backend con base de datos MongoDB.  
+Desarrollado como parte del **Módulo 2** del bootcamp de Desarrollo Web Full Stack.
 
 ---
 
@@ -35,11 +35,11 @@ Carlos Enterprises permite a los usuarios:
 
 ### 🧪 Pruebas
 
-- Pruebas unitarias con **Jest** para funcionalidades clave (ej. carrito de compras).
+- Pruebas unitarias con **Jest** para funcionalidades clave.
 
 ---
 
-## 🧰 Tecnologías Utilizadas
+## 🔑 Tecnologías Utilizadas
 
 ### Frontend
 
@@ -60,23 +60,7 @@ Carlos Enterprises permite a los usuarios:
 
 ---
 
-## 🚀 Instalación
+## 🚀 Clona el repositorio
 
-1. Cloná el repositorio:
 ```bash
-git clone https://github.com/CarlosDanielOK/carlos-enterprises.git
-Instalá dependencias del frontend:
-
-bash
-Copiar
-Editar
-cd client
-npm install
-Instalá dependencias del backend:
-
-bash
-Copiar
-Editar
-cd ../server
-npm install
-Configurá las variables de entorno (por ejemplo, MONGO_URI).
+git clone https://github.com/CarlosDanielOK/app-peliculas-m2.git
