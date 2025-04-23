@@ -1,50 +1,82 @@
-# Proyecto de Módulo 2: Carlos Enterprises 🎥
+# 🎬 Carlos Enterprises
 
-Este proyecto es una aplicación web completa que permite a los usuarios explorar y gestionar películas. Incluye un frontend desarrollado con tecnologías modernas y un backend que interactúa con una base de datos MongoDB para almacenar y recuperar información de películas.
+**Aplicación web completa** para explorar y gestionar películas. Cuenta con un frontend moderno y un backend con base de datos MongoDB.  
+Desarrollado como parte del **Módulo 2** del curso de desarrollo web.
 
-## Tabla de Contenidos
-- [Descripción](#descripción)
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Pruebas](#pruebas)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+---
 
-## Descripción
-Este proyecto fue desarrollado como parte del Módulo 2 del curso de desarrollo web. Su objetivo es proporcionar una plataforma para gestionar películas, incluyendo la creación, visualización y almacenamiento de información relevante.
+## 🧠 Descripción
 
-## Características
-- **Frontend**:
-  - Carrusel de imágenes en la página principal.
-  - Sección de estrenos con tarjetas dinámicas de películas.
-  - Formularios para crear nuevas películas.
-  - Diseño responsivo utilizando Bootstrap.
+Carlos Enterprises permite a los usuarios:
 
-- **Backend**:
-  - API REST para gestionar películas.
-  - Conexión a una base de datos MongoDB.
-  - Rutas para obtener y crear películas.
+- Navegar por estrenos recientes y películas destacadas.
+- Crear nuevas películas con formularios dinámicos.
+- Almacenar y recuperar información desde una base de datos MongoDB.
+- Visualizar el contenido en una interfaz responsive y moderna.
 
-- **Pruebas**:
-  - Pruebas unitarias para la lógica del carrito de compras.
+---
 
-## Tecnologías Utilizadas
+## ✨ Características
+
+### 🎨 Frontend
+
+- Carrusel de imágenes en la página principal.
+- Tarjetas dinámicas para mostrar películas destacadas.
+- Formulario para crear nuevas películas.
+- Diseño responsive con **Bootstrap 5**.
+- Comunicación con el backend usando **Axios**.
+
+### 🛠️ Backend
+
+- API REST para gestión de películas.
+- Conexión a **MongoDB** usando **Mongoose**.
+- Endpoints para crear y obtener películas.
+- Middleware de logs (**Morgan**) y manejo de CORS.
+
+### 🧪 Pruebas
+
+- Pruebas unitarias con **Jest** para funcionalidades clave (ej. carrito de compras).
+
+---
+
+## 🧰 Tecnologías Utilizadas
+
 ### Frontend
+
 - HTML5, CSS3, JavaScript
 - Bootstrap 5
 - Webpack
 - Axios
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB y Mongoose
-- Morgan y Cors
 
-### Pruebas
+- Node.js + Express.js
+- MongoDB + Mongoose
+- Morgan y CORS
+
+### Testing
+
 - Jest
 
-## Estructura del Proyecto
+---
+
+## 🚀 Instalación
+
+1. Cloná el repositorio:
+```bash
+git clone https://github.com/CarlosDanielOK/carlos-enterprises.git
+Instalá dependencias del frontend:
+
+bash
+Copiar
+Editar
+cd client
+npm install
+Instalá dependencias del backend:
+
+bash
+Copiar
+Editar
+cd ../server
+npm install
+Configurá las variables de entorno (por ejemplo, MONGO_URI).
