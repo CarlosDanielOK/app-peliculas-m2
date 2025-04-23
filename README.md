@@ -16,9 +16,9 @@ Carlos Enterprises permite a los usuarios:
 
 ---
 
-## ✨ Características
+## 💻 Características
 
-### 🎨 Frontend
+### Frontend
 
 - Carrusel de imágenes en la página principal.
 - Tarjetas dinámicas para mostrar películas destacadas.
@@ -26,7 +26,7 @@ Carlos Enterprises permite a los usuarios:
 - Diseño responsive con **Bootstrap 5**.
 - Comunicación con el backend usando **Axios**.
 
-### 🛠️ Backend
+### Backend
 
 - API REST para gestión de películas.
 - Conexión a **MongoDB** usando **Mongoose**.
