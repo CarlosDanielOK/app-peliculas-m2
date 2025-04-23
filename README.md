@@ -39,7 +39,7 @@ Carlos Enterprises permite a los usuarios:
 
 ---
 
-## 🔑 Tecnologías Utilizadas
+## 🔑 Tecnologías
 
 ### Frontend
 
