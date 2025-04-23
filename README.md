@@ -1,11 +1,11 @@
-# 🎬 Carlos Enterprises
+# 🖥️ Carlos Enterprises
 
 **Aplicación web completa** para explorar y gestionar películas. Cuenta con frontend y backend con base de datos MongoDB.  
 Desarrollado como parte del **Módulo 2** del bootcamp de Desarrollo Web Full Stack.
 
 ---
 
-## 🧠 Descripción
+## 📚 Descripción
 
 Carlos Enterprises permite a los usuarios:
 
